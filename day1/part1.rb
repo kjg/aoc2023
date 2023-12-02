@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-file = File.join(File.dirname(__FILE__), ARGV[0] || 'example.txt')
+file = File.join(File.dirname(__FILE__), ARGV[0] || 'example1.txt')
 
 total = 0
 File.open(file).each do |l|
